@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <classes>
+      <class name="testPackage.LoginTestClass">
+        <methods>
+          <include name="afterTest"/>
+          <include name="verifyLoginFunctionalitywithwrongPassworddata"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeclass"/>
+          <include name="beforetest"/>
+        </methods>
+      </class> <!-- testPackage.LoginTestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
